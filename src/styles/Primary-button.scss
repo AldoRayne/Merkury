@@ -1,0 +1,18 @@
+.btn-secondary {
+  position: relative;
+  width: 200px;
+  background-color: #5584ff;
+  border: none;
+  border-radius: 36px;
+
+  &:after {
+    position: absolute;
+    content: "\f105";
+    font-family: FontAwesome;
+    right: 20px;
+    color: black;
+  }
+}
+
+
+

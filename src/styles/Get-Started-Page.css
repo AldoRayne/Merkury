@@ -1,0 +1,38 @@
+.get-started {
+  background-image: url("../../images/authorization-background.png");
+  background-size: 100% 100vh;
+  width: 100%;
+  height: 100vh; }
+  .get-started-logo {
+    position: absolute;
+    left: 47px;
+    top: 2px; }
+    @media screen and (max-width: 375px) {
+      .get-started-logo {
+        left: 20px; } }
+    .get-started-logo-title {
+      color: #ffffff;
+      margin-left: 10px; }
+      @media screen and (max-width: 767px) {
+        .get-started-logo-title {
+          display: none; } }
+  .get-started-form {
+    position: relative;
+    min-height: 400px;
+    margin-top: 210px;
+    padding-bottom: 45px;
+    background-color: #ffffff; }
+    @media screen and (min-width: 1024px) {
+      .get-started-form {
+        width: 800px; } }
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+      .get-started-form {
+        width: 600px; } }
+    @media screen and (max-width: 767px) and (min-width: 425px) {
+      .get-started-form {
+        width: 400px; } }
+    @media screen and (max-width: 424px) and (min-width: 320px) {
+      .get-started-form {
+        width: 300px; } }
+
+/*# sourceMappingURL=Get-Started-Page.css.map */

@@ -1,0 +1,54 @@
+.nav {
+  justify-content: flex-end;
+  background-color: #0e1a35;
+  height: 70px;
+  padding-top: 15px; }
+  .nav-tabs, .nav-link {
+    border: none !important;
+    border-radius: 0 !important; }
+  .nav-link {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    height: 100%; }
+  .nav-link.active {
+    border-bottom: 4px solid #5584ff !important; }
+  .nav-link:hover {
+    cursor: pointer; }
+
+.authorisation-form {
+  margin-top: 40px; }
+  .authorisation-form li {
+    position: relative;
+    margin-bottom: 25px; }
+    .authorisation-form li input {
+      width: 300px;
+      background: none;
+      border-bottom: 1px solid #8492af; }
+      @media screen and (max-width: 767px) {
+        .authorisation-form li input {
+          width: 150px; } }
+
+.get-started-title {
+  margin-top: 40px; }
+  .get-started-title span {
+    color: #5384ff; }
+
+.username:before {
+  position: absolute;
+  content: "\f2c0";
+  font-family: FontAwesome;
+  left: -25px; }
+
+.password:before {
+  position: absolute;
+  content: "\f023";
+  font-family: FontAwesome;
+  left: -25px; }
+
+.email:before {
+  position: absolute;
+  content: "\f2b6";
+  font-family: FontAwesome;
+  left: -25px; }
+
+/*# sourceMappingURL=Login-register-tabs-style.css.map */
