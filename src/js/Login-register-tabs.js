@@ -51,14 +51,14 @@ class Login_Register_Tabs extends Component {
                                 <form id='reg_form' className='authorisation-form d-flex flex-column align-items-center'>
                                     <ul className=''>
                                         <li className='username'><input id='user_reg' type='text' placeholder='Username'/></li>
-                                        <li className='password'><input id='password_reg' type='text' placeholder='Password'/></li>
+                                        <li className='password'><input id='pass_reg' type='text' placeholder='Password'/></li>
                                         <li className='email'><input type='text' placeholder='E-mail'/></li>
                                     </ul>
                                     <Button onClick={ () => {
 
                                         let user_data = {
                                             username: $('#user_reg').val(),
-                                            password: $('#password_reg').val(),
+                                            password: $('#pass_reg').val(),
                                             email: $('.email input').val()
                                         };
 

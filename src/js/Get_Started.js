@@ -4,6 +4,7 @@ import '../styles/Get-Started-Page.css';
 import '../styles/Login-register-tabs-style.css';
 
 import Login_Register_Tabs from "./Login-register-tabs";
+import Site_Logo from "./Site_Logo";
 
 class Get_Started extends Component {
     render() {
@@ -11,10 +12,7 @@ class Get_Started extends Component {
             <div className='container-fluid get-started'>
                 <div className='container d-flex justify-content-center'>
                     <div className='get-started-form'>
-                        <h1 className='get-started-logo'>
-                            <a href='#'><img src='../../images/logo.png' width='65px' height='65px'/></a>
-                            <span className='get-started-logo-title'>Merkury</span>
-                        </h1>
+                        <Site_Logo/>
                         <Login_Register_Tabs/>
                     </div>
                 </div>
