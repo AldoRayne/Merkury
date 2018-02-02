@@ -1,0 +1,19 @@
+.home-page {
+  background-color: #e1e1e1;
+
+  &-content {
+    position: relative;
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .site-logo {
+    top: 10px;
+  }
+}
+
+.welcome-title {
+  height: 70px;
+  margin-top: 20px;
+  padding-top: 15px;
+}

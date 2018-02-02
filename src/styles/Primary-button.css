@@ -1,10 +1,10 @@
-.btn-secondary {
+.btn-primary {
   position: relative;
   width: 200px;
   background-color: #5584ff;
   border: none;
   border-radius: 36px; }
-  .btn-secondary:after {
+  .btn-primary:after {
     position: absolute;
     content: "\f105";
     font-family: FontAwesome;

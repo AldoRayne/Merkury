@@ -5,7 +5,7 @@
   background-color: #0e1a35;
 
   &-list {
-    padding-top: 117px;
+    padding-top: 80px;
 
     li {
       width: 100%;
@@ -29,5 +29,35 @@
 .home-link:before {
   position: absolute;
   content: url('../../images/home-link.png');
+  left: 45px;
+}
+
+.workflow-link:before {
+  position: absolute;
+  content: url('../../images/workflow-link.png');
+  left: 45px;
+}
+
+.statistics-link:before {
+  position: absolute;
+  content: url('../../images/statistics-link.png');
+  left: 45px;
+}
+
+.calendar-link:before {
+  position: absolute;
+  content: url('../../images/calendar-link.png');
+  left: 45px;
+}
+
+.users-link:before {
+  position: absolute;
+  content: url('../../images/users-link.png');
+  left: 45px;
+}
+
+.settings-link:before {
+  position: absolute;
+  content: url('../../images/settings-link.png');
   left: 45px;
 }

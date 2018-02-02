@@ -1,0 +1,27 @@
+.btn-secondary {
+  position: relative;
+  width: 130px;
+  height: 40px;
+  margin: 10px 40px 0 0;
+  background-color: #5584ff;
+  border: none;
+  border-radius: 24px;
+
+  span {
+    margin-left: 15px;
+  }
+
+  &:before {
+    position: absolute;
+    content: "\f067";
+    font-family: FontAwesome;
+    top: 12px;
+    left: 14px;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+
+

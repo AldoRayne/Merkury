@@ -6,7 +6,7 @@ class Site_Logo extends Component {
     render() {
         return (
             <h1 className='site-logo'>
-                <a href='#'><img src='../../images/logo.png' width='65px' height='65px'/></a>
+                <a href='#'><img src='../../images/logo.png' width='55px' height='55px'/></a>
                 <span className='site-logo-title'>Merkury</span>
             </h1>
         )

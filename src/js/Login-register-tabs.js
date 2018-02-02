@@ -54,7 +54,7 @@ class Login_Register_Tabs extends Component {
                                         <li className='password'><input id='pass_reg' type='text' placeholder='Password'/></li>
                                         <li className='email'><input type='text' placeholder='E-mail'/></li>
                                     </ul>
-                                    <Button onClick={ () => {
+                                    <Button color='primary' onClick={ () => {
 
                                         let user_data = {
                                             username: $('#user_reg').val(),
@@ -80,7 +80,7 @@ class Login_Register_Tabs extends Component {
                                         <li className='username'><input id='user_login' type='text' placeholder='Username'/></li>
                                         <li className='password'><input id='password_login' type='text' placeholder='Password'/></li>
                                     </ul>
-                                    <Button onClick={ () => {
+                                    <Button color='primary' onClick={ () => {
 
                                         let user_check = {
                                             username: $('#user_login').val(),
@@ -95,10 +95,13 @@ class Login_Register_Tabs extends Component {
                                                 (
                                                     $('#login_form').trigger('reset')
                                                     (document.location.href = 'http://localhost:8080/home')
-                                                    (localStorage.clear())
                                                 )
 
-                                            : alert('Введите правильный логин и/или пароль'));
+                                            :
+                                                (
+                                                    $('#login_form').trigger('reset')
+                                                    (alert('Введите правильный логин и/или пароль')))
+                                                )
 
                                     }}>Enter</Button>
                                 </form>
