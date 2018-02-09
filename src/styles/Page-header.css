@@ -1,0 +1,24 @@
+.page-header {
+  position: relative;
+  width: 100%;
+  padding-top: 10px; }
+  .page-header .fa {
+    margin: 15px 40px 0 0;
+    cursor: pointer;
+    font-size: 24px; }
+
+.profile-icon {
+  position: relative; }
+  .profile-icon:after {
+    position: absolute;
+    content: "\f0dd";
+    font-family: FontAwesome;
+    color: black;
+    top: 12px;
+    right: -15px; }
+
+.container-fluid {
+  height: 80px;
+  background-color: #ffffff; }
+
+/*# sourceMappingURL=Page-header.css.map */

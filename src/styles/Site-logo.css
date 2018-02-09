@@ -1,0 +1,16 @@
+.site-logo {
+  position: absolute;
+  left: 30px;
+  top: 2px; }
+  @media screen and (max-width: 375px) {
+    .site-logo {
+      left: 20px; } }
+  .site-logo-title {
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 32px; }
+    @media screen and (max-width: 767px) {
+      .site-logo-title {
+        display: none; } }
+
+/*# sourceMappingURL=Site-logo.css.map */
